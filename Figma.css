@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: RGB(10, 20, 43);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.container{
+    width: 928px;
+    height: 641px;
+    background-color: rgba(255, 255, 255, 1);    
+    border-radius: 36px;
+    display: flex;
+    align-items: center;
+    gap: 133px;
+}
+.Left{
+    width: 376px;
+    height: 465px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 64px;
+}
+.Right{
+    width: 400px;
+    height: 593px;
+    padding-right: 25px;    
+}
+.head{
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    height: 35px;
+}
+.qvehead{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+}
+.listingi{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.zeda{
+    width: 376px;
+    height: 244px;    
+}
+.mail{
+    width: 376px;
+    height: 56px;
+    border-radius: 8px;
+    border: solid rgba(25, 24, 43, 0.25) 1px;    
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    opacity: 50%;
+}
+.subscribe{
+    width: 376px;
+    height: 56px;
+    border-radius: 8px;    
+    background-color: rgba(36, 39, 66, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;    
+    cursor: pointer;
+    text-decoration: none; 
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2); 
+
+}
+:hover.subscribe{
+    background: linear-gradient(204.47deg, #FF6A3A 0%, #FF527B 100%);
+    border: none;
+    transition: 5s;
+    transition-duration: 5s;
+}
+.address{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+}
+.qveda{
+    width: 376px;
+    height: 162px;
+    display: flex;    
+    flex-direction: column;
+}
+.gapp{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
