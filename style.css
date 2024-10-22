@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background-color: rgba(54, 56, 77, 1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,6 +65,51 @@ body{
     font-weight: 700;
     line-height: 24px;
     text-align: center;
-    color: white;
-    
+    color: white;   
+}
+.shavad{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;    
+}
+:hover.linki{
+    background: linear-gradient(204.47deg, #FF6A3A 0%, #FF527B 100%);
+    border: none;
+}
+@media (max-width:400px) {
+    .container{
+        width: 375px;
+        height: 812px;        
+        border-radius: 0px;
+        gap: 0px;
+    }
+    .content{
+        width: 327px;
+        height: 96px;        
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;        
+    }
+    .Main{
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: left;
+        width: 327px;
+        height: 80px;                
+    }
+    .linki{
+        width: 327px;
+        position: absolute;
+        bottom: 50px;
+    }
+    .cheki {
+        top: 200px;
+        left: 20px;
+    }
 }
